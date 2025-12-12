@@ -1,0 +1,20 @@
+Package: VoronoiPlotter
+Title: Bounded Voronoi Plot Generator
+Version: 1.0.0
+Author: Lyong Heo <usheoly32@gmail.com>
+Description: Provides a flexible function to generate bounded Voronoi diagrams for spatial datasets, with extensive options for customization including clipping shape, highlighting, and color.
+License: MIT
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Imports:
+    sf,
+    sp,
+    dismo,
+    ggplot2,
+    grDevices
+Suggests:
+    readxl,
+    knitr,
+    rmarkdown
+Depends:
+    R (>= 2.10)
